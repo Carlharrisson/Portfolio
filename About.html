@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carl Harrisson About</title>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <button
+      class="burger"
+    onclick="toggleMenu()">
+  </button>
+  <div class="background"></div>
+  <button class="navbar-burger" onclick="toggleMenu()"></button>
+  <div class="menu">
+    <nav>
+      <a href="Index.html" style="animation-delay: 0.1s">Projects</a>
+      <a href="About.html" style="animation-delay: 0.2s">About</a>
+      <a href="mailto: Carl.harrisson@gmail.com" style="animation-delay: 0.3s">Contact</a>
+      <a href="https://www.linkedin.com/in/carl-harrisson" rel="norefferer noopener" target="_blank" style="animation-delay: 0.5s">Linkedin</a>
+          </nav>
+        </div>
+      </header>
+      <section class="about-wrapper">
+        <h1 class="about">
+          I'm Carl Harrisson, 23 a London-based product designer from Stockholm,
+          Sweden. Currently enrolled at Ravensbourne University doing the second
+          year of my BA (Hons) in Product Design. As a creative individual, I
+          have always felt a strong need to express myself.
+          <p>
+            As someone who has always been intrigued by the finance industry, I
+            see myself helping banks designing a solution that solves problems
+            in a person's daily life. Design has always been a passion of mine,
+            but I also love skiing, travelling, and spending time with friends
+          </p>
+        </h1>
+        <img class="portrait" src="Images/Portrait.svg" alt="#" />
+      </section>
+
+      <script type="text/javascript">
+        const toggleMenu = () => {
+          document.body.classList.toggle ("open");
+        };
+      </script>
+  </body>
+</html>
