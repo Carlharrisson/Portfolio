@@ -152,17 +152,21 @@ header {
 }
 
 .hero {
-    font-size: 1.8rem;
-    padding-top: 10rem;
+    font-size: 3rem;
+    padding-top: 8rem;
     height: 100vh;
 }
 
 .name {
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: italic;
-    position: absolute;
-    bottom: 5rem;
+    position: relative;
+    padding-right: 1rem;
+    bottom: 3rem;
+    
+  
+
 }
 
 .arrow-down {
@@ -266,12 +270,12 @@ header {
 
 @media only screen and (min-width: 680px) {
   .hero {
-    font-size: 2.8rem;
+    font-size: 5rem;
     padding-top: 5rem;
 }
 
 .name {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .title {
@@ -317,11 +321,13 @@ header {
 
 @media only screen and (min-width: 920px) {
   .hero {
-    font-size: 4rem;
+    font-size: 6rem;
+    padding-top: 0rem;
 }
 
 .name {
   font-size: 3rem;
+  bottom: 7rem;
 }
 
 .text {
@@ -390,6 +396,10 @@ header {
 
   .content-img {
     border-radius: 1rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
   }
 }
 
