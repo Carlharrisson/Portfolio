@@ -416,10 +416,10 @@ header {
     justify-content: space-between;
     padding-right: 2.5rem;
     padding-top: 5rem;
+    align-items: center;
   }
 .about{
   font-size: 1.6rem;
-  padding-top: 0rem;
 }
 
 .wrapper-img {
@@ -441,11 +441,6 @@ header {
   border-radius: 1rem;
   width: 100%;
   height: auto;
-}
-@media only screen and (min-width: 1600px) {
-  .about {
-    padding-top: 6rem
-  }
 }
 
 }
