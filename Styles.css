@@ -398,7 +398,7 @@ header {
   }
 
   .name {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-right: 40rem;
   }
 }
@@ -407,8 +407,6 @@ header {
   body {
     margin: 2.5rem;
   }
-  
- 
   
   .about-wrapper {
     display: flex ;
